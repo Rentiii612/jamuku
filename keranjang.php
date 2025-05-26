@@ -1,5 +1,5 @@
 <?php
-require 'src/fungsi.php';
+require 'fungsi.php';
 if (isset($_GET['hapus'])) {
     hapusDariKeranjang($_GET['hapus']);
     header("Location: keranjang.php");
