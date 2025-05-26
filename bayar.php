@@ -1,5 +1,5 @@
 <?php
-require 'src/fungsi.php';
+require 'fungsi.php';
 $total = totalHarga();
 session_destroy();
 ?>
